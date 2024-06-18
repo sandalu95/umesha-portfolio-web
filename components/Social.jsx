@@ -1,12 +1,21 @@
 import Link from "next/link";
 
-import { FaGithub, FaLinkedin, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedin />, path: "" },
-  { icon: <FaYoutube />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/sandalu95" },
+  {
+    icon: <FaLinkedin />,
+    path: "https://www.linkedin.com/in/sandalu-kalpanee/",
+  },
+  {
+    icon: <FaFacebook />,
+    path: "https://www.facebook.com/profile.php?id=100011479913217",
+  },
+  {
+    icon: <FaInstagram />,
+    path: "https://www.instagram.com/sandalu_kalpanee?igsh=OGttbXhleTdmaDRk&utm_source=qr",
+  },
 ];
 
 const Social = ({ containerStyles, iconStyles }) => {
