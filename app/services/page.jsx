@@ -8,28 +8,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "We build websites that are fast, secure, and easy to manage. We use the latest technologies to ensure your website is always up to date.",
+      "We create robust, scalable, and high-performing websites using cutting-edge technologies. Our team ensures your website is optimized for speed, security, and user experience.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Mobile App Development",
     description:
-      "We build websites that are fast, secure, and easy to manage. We use the latest technologies to ensure your website is always up to date.",
+      "We develop intuitive and responsive mobile applications for both Android and iOS platforms. Our apps are designed to provide a seamless user experience and high performance.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "UI/UX Design",
     description:
-      "We build websites that are fast, secure, and easy to manage. We use the latest technologies to ensure your website is always up to date.",
+      "Our UI/UX design services focus on creating visually appealing and user-friendly interfaces. We ensure that your digital products are easy to use and provide a great user experience.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Logo Design",
     description:
-      "We build websites that are fast, secure, and easy to manage. We use the latest technologies to ensure your website is always up to date.",
+      "We craft unique and memorable logos that represent your brand’s identity. Our design process involves understanding your vision and creating a logo that stands out in the market.",
     href: "",
   },
 ];
