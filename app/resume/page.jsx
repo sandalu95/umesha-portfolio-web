@@ -87,11 +87,13 @@ const education = {
       institute: "RMIT University",
       degree: "Master of Information Technology",
       duration: "2023-2024",
+      gpa: "3.87/4.0"
     },
     {
       institute: "University of Kelaniya",
       degree: "Bachelor of Management and Information Technology",
       duration: "2016-2020",
+      gpa: "3.84/4.0"
     },
   ],
 };
@@ -218,7 +220,7 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[210px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          className="bg-[#232329] h-[250px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <span className="text-accent">{item.duration}</span>
                           <h3 className="text-xl max-w-[320px] min-h-[60px] text-center lg:text-left">
@@ -228,6 +230,11 @@ const Resume = () => {
                             {/* dot */}
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.institute}</p>
+                          </div>
+                          <div className="flex items-center gap-3">
+                            {/* dot */}
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                            <p className="text-white/60">GPA: {item.gpa}</p>
                           </div>
                         </li>
                       );
