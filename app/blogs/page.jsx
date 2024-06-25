@@ -53,8 +53,8 @@ const Blogs = () => {
       }}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0"
     >
-      <div className="container mx-auto">
-        <ScrollArea className="h-[80vh] pr-5">
+      <ScrollArea className="h-[80vh]">
+        <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
             {blogs.map((blog, index) => {
               return (
@@ -87,8 +87,8 @@ const Blogs = () => {
               );
             })}
           </div>
-        </ScrollArea>
-      </div>
+        </div>
+      </ScrollArea>
     </motion.section>
   );
 };
