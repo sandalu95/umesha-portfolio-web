@@ -2,46 +2,9 @@
 
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { blogs } from "@/data/data";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
-const blogs = [
-  {
-    title: "Writing Unit Tests for React Using Jest",
-    description:
-      "A guide to setting up Jest for a React project and writing unit tests to ensure your components work as intended.",
-    href: "https://medium.com/@sandalukalpanee/writing-unit-tests-for-react-using-jest-2c15e0737f5e",
-    image: "/assets/blog/blog5.jpeg",
-  },
-  {
-    title: "Exploring New React-Based Frameworks: A Look at the Tops of 2024",
-    description:
-      "A review and discussion of the top new React-based frameworks of 2024 and their potential applications.",
-    href: "https://medium.com/@sandalukalpanee/exploring-new-react-based-frameworks-a-look-at-the-tops-of-2024-8ccdaf43d082",
-    image: "/assets/blog/blog4.jpeg",
-  },
-  {
-    title: "Building Scalable Web Applications with GraphQL",
-    description:
-      "An introduction to GraphQL and its advantages over traditional REST APIs, along with a guide to building scalable applications.",
-    href: "https://medium.com/@sandalukalpanee/building-scalable-web-applications-with-graphql-ec9c16a9cf83",
-    image: "/assets/blog/blog3.jpeg",
-  },
-  {
-    title: "The Ultimate SP Dashboard to track your API Manager Analytics",
-    description:
-      "This article focuses on the Publisher dashboard of APIM Analytics 3.0.0 and provides a brief overview of its features.",
-    href: "https://medium.com/@sandalukalpanee/the-ultimate-sp-dashboard-to-track-your-api-manager-analytics-99b36de65021",
-    image: "/assets/blog/blog2.jpeg",
-  },
-  {
-    title: "What is Serverless?",
-    description:
-      "This article explains the basics of Serverless Architecture and its benefits for our studies.",
-    href: "https://medium.com/@sandalukalpanee/what-is-serverless-2470a24db2ea",
-    image: "/assets/blog/blog1.jpeg",
-  },
-];
 
 const Blogs = () => {
   return (

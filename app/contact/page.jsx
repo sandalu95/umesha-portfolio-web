@@ -14,31 +14,12 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-
-const info = [
-  {
-    icon: <FaPhoneAlt />,
-    title: "Phone",
-    description: "(+61) 451 051 433",
-  },
-  {
-    icon: <FaEnvelope />,
-    title: "Email",
-    description: "sandykiara1995@gmail.com",
-  },
-  {
-    icon: <FaMapMarkerAlt />,
-    title: "Address",
-    description: "9/36, Ulupna Road, Ormond, Victoria 3204, Australia",
-  },
-];
-
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { info } from "@/data/data";
 
 const Contact = () => {
   const form = useRef();

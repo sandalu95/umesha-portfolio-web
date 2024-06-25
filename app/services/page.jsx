@@ -3,38 +3,8 @@
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
 
-const services = [
-  {
-    num: "01",
-    title: "Web Development",
-    description:
-      "We create robust, scalable, and high-performing websites using cutting-edge technologies. Our team ensures your website is optimized for speed, security, and user experience.",
-    href: "",
-  },
-  {
-    num: "02",
-    title: "Mobile App Development",
-    description:
-      "We develop intuitive and responsive mobile applications for both Android and iOS platforms. Our apps are designed to provide a seamless user experience and high performance.",
-    href: "",
-  },
-  {
-    num: "03",
-    title: "UI/UX Design",
-    description:
-      "Our UI/UX design services focus on creating visually appealing and user-friendly interfaces. We ensure that your digital products are easy to use and provide a great user experience.",
-    href: "",
-  },
-  {
-    num: "04",
-    title: "Logo Design",
-    description:
-      "We craft unique and memorable logos that represent your brand’s identity. Our design process involves understanding your vision and creating a logo that stands out in the market.",
-    href: "",
-  },
-];
-
 import { motion } from "framer-motion";
+import { services } from "@/data/data";
 
 const Services = () => {
   return (
