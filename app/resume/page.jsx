@@ -29,24 +29,24 @@ const about = {
       fieldValue: "3+ Years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "sandalu95",
+      fieldName: "Email",
+      fieldValue: "sandykiara1995@gmail.com",
     },
     {
       fieldName: "Nationality",
       fieldValue: "Sri Lankan",
     },
     {
-      fieldName: "Email",
-      fieldValue: "sandykiara1995@gmail.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Not available",
+      fieldName: "LinkedIn",
+      fieldValue: "sandalu kalpanee",
     },
     {
       fieldName: "Languages",
       fieldValue: "English, Sinhala",
+    },
+    {
+      fieldName: "Availability",
+      fieldValue: "Immediately",
     },
   ],
 };
@@ -87,13 +87,13 @@ const education = {
       institute: "RMIT University",
       degree: "Master of Information Technology",
       duration: "2023-2024",
-      gpa: "3.87/4.0"
+      gpa: "3.87/4.0",
     },
     {
       institute: "University of Kelaniya",
       degree: "Bachelor of Management and Information Technology",
       duration: "2016-2020",
-      gpa: "3.84/4.0"
+      gpa: "3.84/4.0",
     },
   ],
 };
@@ -291,7 +291,7 @@ const Resume = () => {
                     return (
                       <li
                         key={index}
-                        className="flex items-center justify-center xl:justify-start gap-4"
+                        className="flex items-center justify-center xl:justify-start gap-3"
                       >
                         <span className="text-white/60">{item.fieldName}</span>
                         <span className="text-xl">{item.fieldValue}</span>
