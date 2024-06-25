@@ -58,8 +58,11 @@ const Blogs = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
             {blogs.map((blog, index) => {
               return (
-                <div>
-                  <div key={index} className="flex-1 flex flex-col group mb-4">
+                <div
+                  key={index}
+                  className="flex-1 flex flex-col group border-b-[2px] border-b-white/20 pb-8 justify-between"
+                >
+                  <div className="mb-4">
                     <div className="relative w-full h-[250px] mb-4">
                       <Image
                         src={blog.image}
@@ -75,14 +78,13 @@ const Blogs = () => {
                         </h2>
                         <p className="text-white/60">{blog.description}</p>
                       </div>
-                      <div>
-                        <a href={blog.href} target="_blank">
-                          <Button variant="whiteOutline">Read More</Button>
-                        </a>
-                      </div>
                     </div>
                   </div>
-                  <div className="border border-white/20"></div>
+                  <div>
+                    <a href={blog.href} target="_blank">
+                      <Button variant="whiteOutline">Read More</Button>
+                    </a>
+                  </div>
                 </div>
               );
             })}
