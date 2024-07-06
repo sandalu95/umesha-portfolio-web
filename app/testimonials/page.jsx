@@ -1,5 +1,6 @@
 "use client";
 
+import { testimonials } from "@/data/data";
 import { motion } from "framer-motion";
 
 const Testimonials = () => {
@@ -14,7 +15,26 @@ const Testimonials = () => {
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >
-          <div>Testimonials</div>
+          {testimonials.map((testimonial, index) => {
+            return (
+              <div
+                key={index}
+                className="flex-1 flex flex-col justify-center gap-6 group"
+              >
+                <div className="w-full flex justify-between items-center">
+                  <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
+                    {" "}
+                    {testimonial.name}
+                  </div>
+                </div>
+                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+                  {testimonial.designation}
+                </h2>
+                <p className="text-white/60">{testimonial.testimonial}</p>
+                <div className="border-b border-white/20 w-full"></div>
+              </div>
+            );
+          })}
         </motion.div>
       </div>
     </section>

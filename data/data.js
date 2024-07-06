@@ -203,6 +203,21 @@ export const services = [
   },
 ];
 
+export const testimonials = [
+  {
+    name: "Chanaka Jayasena",
+    designation: "Technical Lead Engineer, WSO2",
+    testimonial:
+      "Ridiculously efficient is the phrase that comes to mind when I think about Sandalu. I had the pleasure of working with Sandalu for six months as her mentor at WSO2, collaborating with WSO2 API Manager team. Her project was to implement the analytics from the ground up for WSO2 API Manager. I was particularly impressed by Sandalu's ability to handle the steep learning curve on multiple technologies. APIM, Siddhi, Stream Processor, React, Webpack, Babel, Javascript, Java, Databases are the main technologies she had to expertise in a short period of time. It was a bonus for us when she showed her artistic skills with the dashboards she designed. That skill often takes years to develop among developers, but it seemed to come perfectly naturally to her. She was able to bring positive energy to the team with her positive attitude and enthusiasm. I can remember she did a rocking final presentation. As a team member and a mentor, Sandalu earns my highest recommendation.",
+  },
+  {
+    name: "Lakshan Karunathilake",
+    designation: "Software Engineer, WSO2",
+    testimonial:
+      "I worked with Sandalu as a fellow intern at wso2 in 2018. She is a self-motivated, supportive, methodical and a dedicated worker. It was fantastic to work with Sandalu and I believe her presence at work had a positive impact to our work place and my individual experience working there as well.",
+  },
+];
+
 export const blogs = [
   {
     title: "Writing Unit Tests for React Using Jest",
