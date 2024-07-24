@@ -121,7 +121,7 @@ export const education = {
       institute: "RMIT University",
       degree: "Master of Information Technology",
       duration: "2023-2024",
-      gpa: "3.87/4.0",
+      gpa: "3.8/4.0",
     },
     {
       institute: "University of Kelaniya",
