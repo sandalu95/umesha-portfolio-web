@@ -50,7 +50,7 @@ const Work = () => {
               </div>
               {/* category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title} ({project.category} project)
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
@@ -70,7 +70,11 @@ const Work = () => {
               {/* buttons */}
               <div className="flex items-center gap-4">
                 {/* Live project button */}
-                <Link href={project.live}>
+                <Link
+                  href={project.live}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -84,7 +88,11 @@ const Work = () => {
                 </Link>
 
                 {/* Github project button */}
-                <Link href={project.github}>
+                <Link
+                  href={project.github}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
