@@ -76,7 +76,7 @@ export const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "sandykiara1995@gmail.com",
+      fieldValue: "sandalukalpanee@gmail.com",
     },
     {
       fieldName: "Nationality",
@@ -101,22 +101,32 @@ export const experience = {
   icon: "/assets/resume/icons/badge.svg",
   title: "My experience",
   description:
-    "With over 4 years of professional experience, I have honed my skills in software development, working on various projects across multiple industries. My roles have involved designing, developing, and deploying high-quality software solutions that meet clients' needs and exceed their expectations.",
+    "With over 3 years of professional experience, I have honed my skills in software development, working on various projects across multiple industries. My roles have involved designing, developing, and deploying high-quality software solutions that meet clients' needs and exceed their expectations.",
   items: [
+    {
+      company: "TradeNet Solutions (pvt) Ltd.",
+      position: "Software Engineer (Contract)",
+      duration: "2024-2025",
+    },
+    {
+      company: "Inflamed (pvt) Ltd.",
+      position: "Software Engineer Intern",
+      duration: "2024",
+    },
     {
       company: "WSO2 Lanka (pvt) Ltd.",
       position: "Software Engineer",
       duration: "2021-2023",
     },
     {
-      company: "WSO2 Lanka (pvt) Ltd.",
-      position: "Trainee Software Engineer",
-      duration: "2018-2019",
-    },
-    {
       company: "Cambio Software Engineering (pvt) Ltd.",
       position: "Software Engineer",
       duration: "2020-2021",
+    },
+    {
+      company: "WSO2 Lanka (pvt) Ltd.",
+      position: "Trainee Software Engineer",
+      duration: "2018-2019",
     },
   ],
 };
@@ -275,11 +285,11 @@ export const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "sandykiara1995@gmail.com",
+    description: "sandalukalpanee@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "9/36, Ulupna Road, Ormond, Victoria 3204, Australia",
+    description: "7/3, Rusden Place, Notting Hill, Victoria 3168, Australia",
   },
 ];

@@ -115,9 +115,9 @@ const Contact = () => {
                 <Input
                   type="firstname"
                   name="firstname"
-                  placeholder="Firstname"
+                  placeholder="First name"
                 />
-                <Input type="lastname" name="lastname" placeholder="Lastname" />
+                <Input type="lastname" name="lastname" placeholder="Last name" />
                 <Input
                   type="email"
                   name="from_email"
